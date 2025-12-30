@@ -30,8 +30,8 @@ const Contact = () => {
     window.location.href = `mailto:shreya.g.2073@gmail.com?subject=${subject}&body=${body}`;
 
     toast({
-      title: "Opening email client",
-      description: "Your default email client will open to send the message.",
+      title: "Successful",
+      description: "We have received your message. We will connect with you shortly.",
     });
 
     setIsSubmitting(false);
